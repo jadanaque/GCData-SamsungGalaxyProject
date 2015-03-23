@@ -22,8 +22,8 @@ You should create one R script called run_analysis.R that does the following:
 
 ### Details and Instructions
 1. All the data related for this project is in the data directory (folder). Take a look at this directory and its content in order to understand the data.
-2. Set this directory ("GCData-SamsungGalaxyProject") as your working directory. Don't use any subdirectory as your working directory.
-3. Run the script `run_analysis.R`. We can also find a "code" directory with a similar script; it's actually the same code. You can omit it.
+2. Set this directory (`GCData-SamsungGalaxyProject`) as your working directory. Don't use any subdirectory as your working directory.
+3. Run the script `run_analysis.R`. We can also find a `code` directory with a similar script; it's actually the same code. You can omit it.
 
 ### Output
 The output we get after running the script `run_analysis.R` is a tidy data set with the average of each variable for each activity and each subject. This data set is found in the `output` directory
