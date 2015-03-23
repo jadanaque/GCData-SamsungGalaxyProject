@@ -114,4 +114,4 @@ The complete list of variables of each feature vector is available in 'features.
 
 ## About the Output Data Set
 
-The variables in the output data set are only the measurements on the mean and standard deviation from each measurement in the original data set. The values we get in this data set are the averages of each of those variables for each activity and each subject.
+The variables in the output data set are only the measurements on the mean and standard deviation from each measurement in the original data set. The values we get in this data set are the averages of each of those variables for each activity and each subject. This data set is gotten after running the script `run_analysis.R`
