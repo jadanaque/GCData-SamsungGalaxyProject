@@ -52,6 +52,7 @@ dim(averageBySubjectActivity)
 library(dplyr)
 averageDFtest <- summarize(group_by(fullDFsubset, subject, activity), tBodyAccMeanX=mean(tBodyAccMeanX, na.rm=T), tBodyAccMeanY=mean(tBodyAccMeanY, na.rm=T))  # I would need insert the name-value pair for each variable
 head(averageDFtest, 10)
+averageDFtest <- summarise_each(group_by(fullDFsubset, subject, activity), funs(mean))  # much better and concise
 
 # Writing the resulting data set into a text file
 write.table(averageBySubjectActivity, "./output/averageBySubjectActivity.txt", row.name=F)
